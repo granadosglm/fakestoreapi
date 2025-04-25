@@ -1,0 +1,4 @@
+codigoUnico,canal,terminalId,idTransaccion,valorCompra,tipoOperacion,condicionIva,iva,baseIva,condicionInc,inc,condicionPropina,propina,tipoQR,llave,tipollave,fechaDeVencimiento,referencia,usos
+"bTzMykzaSDiTNpk","APP","dvpJYibGMGCBtxCJEkcXGdVFp","nbpBTYZkpoXVLWIAezkTYbRll","0","ANULACION","01",2938208370,1523874046,"01",7883540234,"01",1380694900,"DIN","UjtJFANuhXEViwSZTXodrXwwG","ZQJOMpBPjk","2026-01-29","cirEGZpGNFbjtRUuCWeGXbrzt",6908
+"LuxJiCsZgbmtDrc","APP","nVWttGrblJyehYEEvEppbWFEv","hvOYQEvrDrPrOmkzCcnIVGpoN","0","ANULACION","02",1778302943,4716182717,"03",5496309631,"01",1225840223,"DIN","ScOjQXxbrXjmhnDCROSoQISwM","EumwEzQKzB","2025-11-04","qlnEfgsRQZtuNorvBSfKkDHVq",3847
+"daFKIbwFhIZrWjw","POS","wMRvGUUVpgMjxoUepTKSguvGZ","jsSYStuCpYKSDPwdkMMKvtzQJ","0","COMPRA","02",3889619208,3930883213,"03",7947120078,"01",5035039021,"DIN","brGkxUhBzkDXLvcwjXQNPeDzE","QBPwgDVNnI","2025-11-10","rZVrbwqCRzZQbReEaXKMuMyeI",8228

@@ -1,0 +1,4 @@
+codigoUnico,canal,terminalId,idTransaccion,valorCompra,tipoOperacion,condicionIva,iva,baseIva,condicionInc,inc,condicionPropina,propina,tipoQR,llave,tipollave,fechaDeVencimiento,referencia,usos
+"txMIUxAJWEsNWhU","IM","kIWAVwKBMfjetGTZWBpbXYwNL","tbyoTZCosRErjXcMEmPHdpsmJ","0","ANULACION","03",1767497067,9857969929,"02",8251186506,"03",4051221368,"STA","hhuKzyOSrCExeISVmWNcarTXZ","AirPjmToJV","2026-02-07","YqrFRwBncwOJEgAQkfRUmecbd",4645
+"GPrQijHRyYWsQro","APP","skpihSBKravOEUgyeSHkhbPKv","pINTDMaQatzHGZlUNXvsUSOhG","0","COMPRA","01",9534948746,4368377902,"01",4397305551,"03",3723222734,"STA","hAquNJNJdVBCVjbjZEvjlhPEe","SWDjIlDqWJ","2025-06-10","iyzUDnKeACJyKSxPRBFDoyXhK",1030
+"ObuzGgQCLWzVWvM","APP","NoIzoapNZnNhNNabdGsNgpAud","YSnOjiAxQgJApXzYroXufimlU","0","ANULACION","01",9792397294,1577651883,"02",3549023778,"01",9636604426,"STA","ihtpUlKCekbepyerBaGSyuZVY","EnsMtbtOWB","2026-02-12","bJmvtxFRSoprObZDtXodkTMJJ",3600
