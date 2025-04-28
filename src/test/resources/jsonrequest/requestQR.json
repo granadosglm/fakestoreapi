@@ -1,0 +1,21 @@
+{
+  "codigoUnico": "",
+  "canal": "",
+  "terminalId": "",
+  "idTransaccion": "",
+  "valorCompra": "",
+  "tipoOperacion": "",
+  "condicionIva": "",
+  "iva":"",
+  "baseIva":"",
+  "condicionInc": "",
+  "inc":"",
+  "condicionPropina": "",
+  "propina":"",
+  "tipoQR": "",
+  "llave": "",
+  "tipollave": "",
+  "fechaDeVencimiento": "",
+  "referencia": "",
+  "usos":""
+}

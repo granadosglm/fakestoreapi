@@ -40,3 +40,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Archivos generados del proyecto ###
+!**/src/test/csvrequest/P2M
+!**/src/test/csvrequest/P2P

@@ -1,4 +1,0 @@
-codigoUnico,canal,terminalId,idTransaccion,valorCompra,tipoOperacion,condicionIva,iva,baseIva,condicionInc,inc,condicionPropina,propina,tipoQR,llave,tipollave,fechaDeVencimiento,referencia,usos
-"","ECOMM","","iTSRZdWxxggtKTFxRNWqeBUNe","0","COMPRA","03",4136090029,8421032590,"01",2341748134,"02",8774081461,"STA","TIywnYZoubikGtzbYVkbMadUg","XNdCVmKolK","2025-08-25","VpogWknuuJTuLZqCXhfYFEXvO",1632
-"","POS","","vKyPEODFQMYZkyAzxiiEaWSaL","0","COMPRA","02",4930272512,4782205997,"01",6887226747,"03",9953369734,"STA","yTdBparxtNCxBBVvhaeslflyU","QPnHwoXQqM","2026-03-26","OsfVnYFEOHxFocqttJjYrknzW",4773
-"","ECOMM","","ApwJIEujJzzGPdDAtBMZNBzOq","0","ANULACION","03",3244135960,3722296050,"03",6408830440,"03",4871451119,"STA","vOUvTxECjiRurHwRIBSlUhzRk","AcyZPSUKCx","2025-08-27","nOlQMzJgeJCAXXqLsJXsnXuEP",9130

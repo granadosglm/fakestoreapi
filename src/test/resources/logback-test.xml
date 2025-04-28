@@ -1,0 +1,22 @@
+<!--<configuration>-->
+<!--    <logger name="com.intuit.karate" level="INFO"/>-->
+<!--    <logger name="org.apache" level="WARN"/>-->
+<!--    <root level="WARN">-->
+<!--        <appender-ref ref="CONSOLE"/>-->
+<!--    </root>-->
+<!--</configuration>-->
+
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Configurar los logs de Karate -->
+    <logger name="com.intuit.karate" level="DEBUG"/> <!-- Nivel DEBUG para mostrar detalles -->
+
+    <root level="WARN">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

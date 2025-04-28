@@ -1,4 +1,0 @@
-codigoUnico,canal,terminalId,idTransaccion,valorCompra,tipoOperacion,condicionIva,iva,baseIva,condicionInc,inc,condicionPropina,propina,tipoQR,llave,tipollave,fechaDeVencimiento,referencia,usos
-"","MPOS","","pYsDirFSgSmZsGolBjILSXuJR","0","COMPRA","01",9002240091,9897095700,"01",5527853268,"02",2007628154,"STA","PrbLdfOWCprlznMeWloRJkKXH","zxYYIPlSci","2025-11-28","GDAidXTfWThJlHqfETQfPihIp",4691
-"","IM","","VZIdqzRIenaQHzgVsyspjcUcU","0","COMPRA","01",7295277374,1612924939,"02",2278448080,"02",9343215864,"STA","VRtqEmGLuCnjmdlvrfBTChfuL","bRzVeotvzF","2025-07-10","GYnLkjIErZyoUAMukeJPJSila",7970
-"","POS","","dQugteximecFaDPWxXjgUDARi","0","ANULACION","02",6589772901,4677999380,"02",6868834874,"01",7139518145,"STA","WjZmfrJKfGZimXzzlomJcctkn","bPKzRgvlgU","2026-03-27","MaRvMrGAjamYjIoUXPdgXKJmb",1391
