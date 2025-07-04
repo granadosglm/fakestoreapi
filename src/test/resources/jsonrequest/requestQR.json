@@ -14,8 +14,17 @@
   "propina":"",
   "tipoQR": "",
   "llave": "",
-  "tipollave": "",
-  "fechaDeVencimiento": "",
-  "referencia": "",
-  "usos":""
+  "tipoLlave": "",
+  "reference": "",
+  "Usos": "",
+  "fechaExpiracion": "",
+  "billingNumber": "",
+  "mobileNumber": "",
+  "storeLabel": "",
+  "loyaltyNumber": "",
+  "referenceLabel": "",
+  "customerLabel": "",
+  "additionalConsumerDataRequest": "",
+  "rrn": "",
+  "numeroAutorizacion": ""
 }

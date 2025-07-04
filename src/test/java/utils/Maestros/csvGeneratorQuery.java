@@ -12,7 +12,7 @@ import java.util.List;
 
 public class csvGeneratorQuery {
     // Encabezados del CSV
-    private static String[] encabezados = {"codigoUnico", "codigoSeguridadQr", "valorCompra","idTransaccion","terminalId","propina"};
+    private static String[] encabezados = {"codigoUnico", "codigoSeguridadQr", "valorCompra","idTransaccion","terminalId","propina","idQr"};
 
     public static void main(String[] args) {
 //        datosValidos("src/test/resources/csvrequest/P2P/happyPathQR.csv",tipoQR,3);

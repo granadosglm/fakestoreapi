@@ -13,7 +13,8 @@ public class csvGeneratorP2P {
     // Encabezados del CSV
     private static String[] encabezados = {"codigoUnico", "canal", "terminalId","idTransaccion","valorCompra","tipoOperacion",
             "condicionIva","iva","baseIva","condicionInc","inc","condicionPropina","propina",
-            "tipoQR","llave","tipollave","fechaDeVencimiento","referencia","usos"};
+            "tipoQR","llave","tipollave","reference","Usos","fechaExpiracion","billingNumber","mobileNumber","storeLabel",
+            "loyaltyNumber","referenceLabel","customerLabel","additionalConsumerDataRequest","rrn","autorizationNumber"};
 
     public static void main(String[] args) {
         String[] tiposQR = {"estatico","dinamico","hibrido"};

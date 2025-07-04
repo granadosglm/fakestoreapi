@@ -8,14 +8,16 @@ public class requestMaestros {
     private String idTransaccion;
     private String terminalId;
     private Long propina;
+    private String idQr;
 
-    public requestMaestros(String codigoUnico, String codigoSeguridadQr, String valorCompra, String idTransaccion, String terminalId, Long propina) {
+    public requestMaestros(String codigoUnico, String codigoSeguridadQr, String valorCompra, String idTransaccion, String terminalId, Long propina, String idQr) {
         this.codigoUnico = codigoUnico;
         this.codigoSeguridadQr = codigoSeguridadQr;
         this.valorCompra = valorCompra;
         this.idTransaccion = idTransaccion;
         this.terminalId = terminalId;
         this.propina = propina;
+        this.idQr = idQr;
     }
 
     public String getCodigoUnico() {
@@ -64,5 +66,13 @@ public class requestMaestros {
 
     public void setPropina(Long propina) {
         this.propina = propina;
+    }
+
+    public String getIdQr() {
+        return idQr;
+    }
+
+    public void setIdQr(String idQr) {
+        this.idQr = idQr;
     }
 }

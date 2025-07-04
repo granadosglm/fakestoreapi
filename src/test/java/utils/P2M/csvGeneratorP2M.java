@@ -13,13 +13,14 @@ public class csvGeneratorP2M {
     // Encabezados del CSV
     private static String[] encabezados = {"codigoUnico", "canal", "terminalId","idTransaccion","valorCompra","tipoOperacion",
             "condicionIva","iva","baseIva","condicionInc","inc","condicionPropina","propina",
-            "tipoQR","llave","tipollave","fechaDeVencimiento","referencia","usos"};
+            "tipoQR","llave","tipoLlave","reference","Usos","fechaExpiracion","billingNumber","mobileNumber","storeLabel",
+            "loyaltyNumber","referenceLabel","customerLabel","additionalConsumerDataRequest","rrn","numeroAutorizacion"};
 
     public static void main(String[] args) {
         String[] tiposQR = {"estatico","dinamico","hibrido"};
 
         for (String tipoQR: tiposQR){
-            datosValidos("src/test/resources/csvrequest/P2M/happyPathQR.csv",tipoQR,3);
+            datosValidos("src/test/resources/csvrequest/P2M/happyPathQR.csv",tipoQR,20);
             casoVacios("src/test/resources/csvrequest/P2M/vaciosQR.csv",tipoQR);
             casoNulos("src/test/resources/csvrequest/P2M/nulosQR.csv",tipoQR);
             casoTipoDato("src/test/resources/csvrequest/P2M/tipoDatosQR.csv",tipoQR);

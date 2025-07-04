@@ -13,8 +13,12 @@ public class requestQuery {
                 String.valueOf(generarNumeroAleatorio(6)),  // valorCompra
                 String.valueOf(generarNumeroAleatorio(10)), // idTransaccion
                 String.valueOf(generarNumeroAleatorio(10)), // terminalId
-                generarNumeroAleatorio(10)                  // propina
+                generarNumeroAleatorio(10),                 // propina
+                ""                                                 // idQr
         );
+//        datos.setIdQr(datos.getCodigoSeguridadQr());
+        datos.setCodigoSeguridadQr("T92Yhm0sUyo8Ge5SJp1TeqsB");
+        datos.setIdQr(datos.getCodigoSeguridadQr());
         return datos;
     }
 }

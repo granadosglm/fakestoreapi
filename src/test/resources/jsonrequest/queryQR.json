@@ -4,5 +4,6 @@
   "valorCompra": "",
   "idTransaccion": "",
   "terminalId": "",
-  "propina": ""
+  "propina": "",
+  "idQr": ""
 }

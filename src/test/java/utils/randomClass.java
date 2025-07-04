@@ -2,11 +2,32 @@ package utils;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Random;
+import java.util.*;
 
 public class randomClass {
 
     private static final Random random = new Random();
+
+    private static Map<String, String> comercios = Map.of(
+            "9767","920048658",
+            "14352","920048633",
+            "14353","920048567",
+            "9769","920048419",
+            "15746","920048419",
+            "88973","920047973",
+            "9950","920047973",
+            "9782","920047569",
+            "9978","920047551",
+            "9830","920047551"
+    );
+
+    public static String[] elegirComercio() {
+        List<Map.Entry<String, String>> listaEntradas = new ArrayList<>(comercios.entrySet());
+        int indiceAleatorio = (int) (Math.random() * listaEntradas.size());
+        Map.Entry<String, String> comercioElegido = listaEntradas.get(indiceAleatorio);
+
+        return new String[]{comercioElegido.getKey(), comercioElegido.getValue()};
+    }
 
     // Generar un string de números, letras o alfanumérico
     public static String generateCode(int length, String type) {
@@ -81,8 +102,16 @@ public class randomClass {
         return canales[random.nextInt(canales.length)];
     }
 
+    public static String elegiradditionalConsumerDataRequest(){
+        String[] data = {"A" , "M" , "E"};
+        Random random = new Random();
+
+        return data[random.nextInt(data.length)];
+    }
+
     public static String elegirTipoOperacion(){
-        String[] operaciones = {"ANULACION","COMPRA"};
+//        String[] operaciones = {"ANULACION","COMPRA"};
+        String[] operaciones = {"COMPRA"};
         Random random = new Random();
 
         return operaciones[random.nextInt(operaciones.length)];

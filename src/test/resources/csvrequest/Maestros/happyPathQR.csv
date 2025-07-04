@@ -1,2 +1,8 @@
-codigoUnico,codigoSeguridadQr,valorCompra,idTransaccion,terminalId,propina
-"0010203040","A654favBasdar5as464asd6","50000","0000000426","30000003",2800
+codigoUnico,codigoSeguridadQr,valorCompra,idTransaccion,terminalId,propina,idQr
+"10000016","27k12JZsoW/PR/T0BQ6513qX","2000","1","1",20000,"27k12JZsoW/PR/T0BQ6513qX"
+"10000016","9vSNQaIurv7vtpMK/fOA4GQ9","2000","1","1",20000,"9vSNQaIurv7vtpMK/fOA4GQ9"
+"10000016","lwtZOBYYKNaZOb4XL0jQ7SM/","2000","1","1",20000,"lwtZOBYYKNaZOb4XL0jQ7SM/"
+"10000016","2X6YId0Lau7nY92Lw12lyC7/","2000","1","1",20000,"2X6YId0Lau7nY92Lw12lyC7/"
+"10000016","5MMEH33I5lsFs8jwDa7v5sSs","2000","1","1",20000,"5MMEH33I5lsFs8jwDa7v5sSs"
+"10000016","uZ5JtFVx0dQagTv22FwKSGNN","2000","1","1",20000,"uZ5JtFVx0dQagTv22FwKSGNN"
+

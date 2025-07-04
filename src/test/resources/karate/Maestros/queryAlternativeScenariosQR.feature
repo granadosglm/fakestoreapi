@@ -8,6 +8,8 @@ Feature: Ejecutar Endpoint para consultar un QR y validar datos de respuesta
     * def csvDataDataType = karate.read('classpath:csvrequest/Maestros/tipoDatosConsultaQR.csv')
     * def bodyQR = read('classpath:jsonrequest/queryQR.json')
     * def responseQR = read('classpath:jsonresponse/queryQRErrorResponse.json')
+    * header x-api-key = apiKey
+    * header Content-Type = contentType
 
   @query_fields_data_type
   Scenario Outline: Petición GET con campos vacios para consultar QR
@@ -19,9 +21,9 @@ Feature: Ejecutar Endpoint para consultar un QR y validar datos de respuesta
     * set bodyQR.terminalId = row.terminalId
     * set bodyQR.propina = row.propina === '' ? '' : parseInt(row.propina)
 
-    Given path 'consultar'
+    Given path 'master-qr/validarQR'
     And request bodyQR
-    When method get
+    When method post
     Then status <status>
     And match response == responseQR
   #* eval sleep(2000)
@@ -45,21 +47,21 @@ Feature: Ejecutar Endpoint para consultar un QR y validar datos de respuesta
     * set bodyQR.terminalId = row.terminalId
     * set bodyQR.propina = row.propina === '' ? '' : parseInt(row.propina)
 
-    Given path 'consultar'
+    Given path 'master-qr/validarQR'
     And request bodyQR
-    When method get
+    When method post
     Then status <status>
     And match response == responseQR
   #* eval sleep(2000)
 
     Examples:
       | __row | status|
-      | 0     |400    |
-      | 1     |400    |
-      | 2     |  400     |
-      | 3     |  400     |
-      | 4     |  400     |
-      | 5     |  400     |
+      | 0     |200    |
+      | 1     |200    |
+      | 2     |  200     |
+      | 3     |  200     |
+      | 4     |  200     |
+      | 5     |  200     |
 
   @query_empty_fields
   Scenario Outline: Petición GET con campos vacios para consultar QR
@@ -71,21 +73,21 @@ Feature: Ejecutar Endpoint para consultar un QR y validar datos de respuesta
     * set bodyQR.terminalId = row.terminalId
     * set bodyQR.propina = row.propina === '' ? '' : parseInt(row.propina)
 
-    Given path 'consultar'
+    Given path 'master-qr/validarQR'
     And request bodyQR
-    When method get
+    When method post
     Then status <status>
     And match response == responseQR
   #* eval sleep(2000)
 
     Examples:
       | __row | status|
-      | 0     |400    |
-      | 1     |400    |
-      | 2     |  400     |
-      | 3     |  400     |
-      | 4     |  400     |
-      | 5     |  400     |
+      | 0     |200    |
+      | 1     |200    |
+      | 2     |  200     |
+      | 3     |  200     |
+      | 4     |  200     |
+      | 5     |  200     |
 
   @query_null_fields
   Scenario Outline: Petición POST genera el codigo QR estatico
@@ -97,18 +99,18 @@ Feature: Ejecutar Endpoint para consultar un QR y validar datos de respuesta
     * set bodyQR.terminalId = 'null' ? null : row.terminalId
     * set bodyQR.propina = 'null' ? null : parseInt(row.propina)
 
-    Given path 'consultar'
+    Given path 'master-qr/validarQR'
     And request bodyQR
-    When method get
+    When method post
     Then status <status>
     And match response == responseQR
     #* eval sleep(2000)
 
     Examples:
       | __row | status|
-      | 0     |400    |
-      | 1     |400    |
-      | 2     |  400     |
-      | 3     |  400     |
-      | 4     |  400     |
-      | 5     |  400     |
+      | 0     |200    |
+      | 1     |200    |
+      | 2     |  200     |
+      | 3     |  200     |
+      | 4     |  200     |
+      | 5     |  200     |
