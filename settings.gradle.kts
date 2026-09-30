@@ -1,2 +1,2 @@
-rootProject.name = "redebanQR"
+rootProject.name = "fakestoreapi"
 
